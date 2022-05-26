@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   
   <body>
@@ -28,19 +29,19 @@
         </p>
       </fieldset>
       <fieldset id="playing">
-        <h3>You got it!</h3>
-        <p>It was <input type="number" name="answer" id="answer" disabled="disabled" /></p>
-        <p>You got it right in <input type="number" name="score" id="score" disabled="disabled" /> tries.</p>
-        Do you want to play again <input type="button" value="Yes" id="yes" /> <input type="button" value="No" id="no" />
+        <p1>You got it!</p1>
+        <p>It was <input type="number" name="answer" id="answer" disabled="disabled" style="width: 30px;" /></p>
+        <p>You got it right in <input type="number" name="score" id="score" disabled="disabled" style="width:30px;" /> tries.</p>
+        Do you want to play again? <input type="button" value="Yes" id="yes" /> <input type="button" value="No" id="no" />
       </fieldset>
       <fieldset id="final">
         <h3>Thanks for playing</h3>
         <p>Here's how you did...</p>
         <table>
-          <tr><td>Total games</td><td><input type="number" value="0" id="games"  disabled="disabled" /></td></tr>
-          <tr><td>Total guesses</td><td><input type="number" value="0" id="guesses"  disabled="disabled" /></td></tr>
-          <tr><td>Avg guesses</td><td><input type="number" value="0" id="avg"  disabled="disabled" /></td></tr>
-          <tr><td>Best game</td><td><input type="number" value="0" id="best"  disabled="disabled" /></td></tr>
+          <tr><td>Total games</td><td><input type="number" value="0" id="games"  disabled="disabled" style="width:50px;" /></td></tr>
+          <tr><td>Total guesses</td><td><input type="number" value="0" id="guesses"  disabled="disabled" style="width:50px;"  /></td></tr>
+          <tr><td>Avg guesses</td><td><input type="number" value="0" id="avg"  disabled="disabled" style="width:50px;" /></td></tr>
+          <tr><td>Best game</td><td><input type="number" value="0" id="best"  disabled="disabled" style="width:50px;" /></td></tr>
         </table>
       </fieldset>
       </form>

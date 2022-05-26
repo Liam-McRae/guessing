@@ -1,8 +1,19 @@
+html {
+  background-color: blanchedalmond;
+}
+
 html, body {
   height: 100%;
   width: 100%;
 }
 
-guessing {
-  width: 100px;
+fieldset {
+  background-color: #fffbf5;
+  width: 260px; /* force minimum width */
+}
+
+
+p1 { /* headers for sections of the game */
+  font-size: 22px; 
+  font-weight: 700; 
 }
